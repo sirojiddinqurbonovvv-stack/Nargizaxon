@@ -1,5 +1,5 @@
 import os
-import google.genai as genai
+from google import genai
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
